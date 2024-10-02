@@ -1,0 +1,20 @@
+:root {
+
+
+    /* Pallet */
+    --clr-primary-1: #000;
+    --clr-primary-base: #626262;
+    --clr-primary--1: #b4ad9e;
+    --clr-primary--2: #f0f0f0;
+
+
+    /* Layout */
+    --layout-padding: 20px;
+    --card-layout-margin: 60px;
+
+
+    /* Break points */
+    --break-l: 1060px;
+    --break-m: 880px;
+    --break-s: 600px;
+}

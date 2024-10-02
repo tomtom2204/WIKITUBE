@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vars.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/wikitube.css">
+    <link rel="stylesheet" href="css/mq.css">
+    <link rel="stylesheet" href="css/components/card.css">
+    <title>WikiTube</title>
+</head>
+<body  onload="onInit()" contenteditable="false">
+    <div class="main-layout">
+        <section class="header">
+            <div class="title">WikiTube</div>
+            <div class="search">
+                <input type="text" placeholder="Search"/>
+                <button class="btn">Search</button>
+            </div>
+            
+            
+        </section>
+
+        <section class="main-container">
+           
+            <div class="player-content">
+                
+            <!--  -->
+                <!-- 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Djf37R9miFI?si=_513OtBGp7idAwdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             -->
+                <div class="iframe-player">
+                    <iframe  allowfullscreen  src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                    </iframe>
+                </div>
+               
+
+
+                <!--  -->
+                <div>
+                    <h2>title</h2>
+                    Lorem ipsum odor amet, consectetuer adipiscing elit. Fusce turpis pulvinar curae natoque quisque, egestas interdum. Est ultrices magna odio ultrices a nec facilisi senectus. Lobortis semper sociosqu congue vulputate potenti. Habitant pharetra vestibulum egestas eleifend nisi risus tristique. Penatibus metus inceptos sed luctus fermentum ut massa. Senectus curae dignissim natoque lectus odio in ipsum.
+
+
+                </div>
+                <div>
+
+                    <h2>title</h2>
+                    Eu fringilla ullamcorper ipsum, mollis parturient justo nisl primis. Gravida ultricies parturient in scelerisque, accumsan purus diam eleifend convallis. Mus sed litora odio eros id cursus sit primis rutrum. Integer eros suscipit dolor vitae urna dignissim. Et laoreet vitae vitae nostra congue orci. Class est imperdiet consectetur fusce mollis gravida at tristique.
+                </div>
+            </div>
+            <div class="top-5-video">
+                <div class="cards">
+                    <!-- <div class="card">
+                    <video width="320" height="240" controls>
+                        <source src="movie.mp4" type="video/mp4">
+                        <source src="movie.ogg" type="video/ogg">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div> -->
+                    <div class="card">
+                        <img class="url" src="https://i.ytimg.com/vi/Djf37R9miFI/default.jpg" alt="">
+                        <span class="description" >Like Roger Federer: quick fix to your one-handed backhand ☝️ ______ Subscribe to my channel for more immersive tennis ...</span>
+                    </div>
+                    <div>video 2</div>
+                    <div>video 3</div>
+                    <div>video 4</div>
+                    <div>video 5</div>
+                </div>
+                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Djf37R9miFI" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+           </div>
+        </section>
+    </div>
+
+
+     <!-- <script src="lib/swal.js"></script> -->
+		<script src="lib/axios.js"></script>
+		
+
+		
+
+        <script src="js/services/util.service.js"></script>
+        <script src="js/services/wikitube.service.js"></script>
+        <script src="js/wikitube.controller.js"></script>
+</body>
+</html>

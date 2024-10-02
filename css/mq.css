@@ -1,0 +1,40 @@
+/* Moblie Only */
+@media (max-width: 920px) {
+
+    .main-layout {
+        grid-template-columns:
+            minmax(var(--layout-padding), 1fr) minmax(auto, var(--break-s)) minmax(var(--layout-padding), 1fr);
+    }
+
+
+}
+
+
+
+
+/* SMALL */
+@media (min-width: 640px) {
+    .main-layout {
+        grid-template-columns:
+            minmax(var(--layout-padding), 1fr) minmax(auto, var(--break-s)) minmax(var(--layout-padding), 1fr);
+    }
+   
+}
+
+
+/* MEDIUM */
+@media (min-width: 920px) {
+    .main-layout {
+        grid-template-columns:
+            minmax(var(--layout-padding), 1fr) minmax(auto, var(--break-m)) minmax(var(--layout-padding), 1fr);
+    }
+}
+
+
+/* LARGE  */
+@media (min-width: 1100px) {
+    .main-layout {
+        grid-template-columns:
+            minmax(var(--layout-padding), 1fr) minmax(auto, var(--break-l)) minmax(var(--layout-padding), 1fr);
+    }
+}
